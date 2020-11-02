@@ -1,0 +1,14 @@
+.hero {
+  height: auto;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    height: 400px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+  }
+}

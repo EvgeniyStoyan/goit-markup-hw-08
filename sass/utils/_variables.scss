@@ -1,0 +1,54 @@
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196F3;
+$logo-color: #000000;
+$primary-white-color: #FFFFFF;
+$address-footer-color: rgba(255, 255, 255, 0.6);
+$secondary-background-color: #F5F4FA;
+$footer-color: #2F303A;
+$background-hero: #C4C4C4;
+$box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$box-shadow-button: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$box-shadow-portfolio: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$work-list-description: rgba(47, 48, 58, 0.8);
+$button-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$flex-form-input-border: 1px solid rgba(255, 255, 255, 0.3);
+$flex-form-input-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+$flex-form-input-color: rgba(255, 255, 255, 0.6);
+$flex-form-button-footer-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$card-content-border: 1px solid #EEEEEE;
+$social-icons-fill:  #AFB1B8;
+$clients-list-link-border: 1px solid #AFB1B8;
+$social-icons-footer-link-background-color: rgba(255, 255, 255, 0.1);
+$backdrop-background-color: rgba(0, 0, 0, 0.2);
+$modal-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$modal_-button-close-border: 1px solid rgba(0, 0, 0, 0.1);
+$form-field-input-border: 1px solid rgba(33, 33, 33, 0.2);
+$form-field-comments-color: rgba(117, 117, 117, 0.5);
+$button-send-submit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$hero-overlay-gradient: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
+
+
+
+// Fonts
+$roboto-font: Roboto, sans-serif;
+$raleway-font: Raleway, sans-serif;
+
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$black: 900;
+
+$main-size: 14px;
+$secondary-size: 16px;
+$normal-style: normal;
+$logo-size: 26px;
+$hero-size: 44px;
+$title-size: 36px;
+$form-size: 20px;
+$card-size: 18px;
+
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;

@@ -1,0 +1,99 @@
+.hero__overlay {
+   background-color: $background-hero;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: $hero-overlay-gradient,
+   url("../img/fon/fon-480.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   max-width: 1600px;
+   height: auto;
+   padding-top: 118px;
+   padding-bottom: 118px;
+
+   @media screen and (min-width: 480px) {
+      height: 400px;
+   }
+  
+   @media screen and (min-width: 768px) {
+      background-image: $hero-overlay-gradient,
+      url("../img/fon/fon-768.jpg");
+      height: 400px;
+   }
+  
+   @media screen and (min-width: 1200px) {
+      background-image: $hero-overlay-gradient,
+      url("../img/fon/fon-1600.jpg");
+      height: 600px;
+      padding-top: 200px;
+      padding-bottom: 200px;
+   }
+}
+ 
+@media screen and (min-device-pixel-ratio: 2),
+   screen and (min-resolution: 192dpi), 
+   screen and (min-resolution: 2dppx) {
+   .hero__overlay { 
+      background-image: $hero-overlay-gradient,    
+      url("../img/fon/fon-480@2x.jpg");
+   }
+} 
+
+@media screen and (min-device-pixel-ratio: 2),
+   screen and (min-resolution: 192dpi), 
+   screen and (min-resolution: 2dppx) {
+   .hero__overlay { 
+      @media screen and (min-width: 768px) {
+         background-image: $hero-overlay-gradient,    
+         url("../img/fon/fon-768@2x.jpg");
+      }
+      
+   }
+} 
+
+@media screen and (min-device-pixel-ratio: 2),
+   screen and (min-resolution: 192dpi), 
+   screen and (min-resolution: 2dppx) {
+   .hero__overlay { 
+      @media screen and (min-width: 1200px) {
+         background-image: $hero-overlay-gradient,    
+         url("../img/fon/fon-1600@2x.jpg");
+      }
+   }
+} 
+ 
+.hero__title {
+   color: $primary-white-color;
+   width: auto;
+   height: auto;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: $roboto-font;
+   font-style: $normal-style;
+   font-weight: $black;
+   font-size: $logo-size;
+   line-height: 1.61;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   margin-top: 0;
+   margin-bottom: 0;
+ 
+   @media screen and (min-width: 480px) and (max-width: 1199px) {
+     width: 360px;
+     height: 84px;
+   }
+ 
+   @media screen and (min-width:1200px) {
+     width: 696px;
+     height: 120px;
+     font-size: 44px;
+     line-height: 1.36;
+   }
+}

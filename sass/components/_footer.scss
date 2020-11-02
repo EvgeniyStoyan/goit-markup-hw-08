@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+       flex-direction: row;
+       flex-wrap: wrap;
+       align-items: baseline;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline; 
+    }
+}
+
+.section-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $footer-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: baseline;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      align-items: baseline;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-page {
+    width: 231px;
+    height: 132px;
+  }
+}

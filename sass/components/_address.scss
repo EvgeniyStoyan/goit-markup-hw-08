@@ -1,0 +1,123 @@
+.address {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 84px;
+        align-items: flex-start;
+        height: 38px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-left: auto;
+        height: 16px;
+        display: inline-flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.contacts-link {
+    color: $primary-text-color;
+    text-decoration: none;
+    font-weight: $medium;
+    font-size: $card-size;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    font-family: $roboto-font;
+    font-style: $normal-style;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (max-width: 767px) {
+
+        &:not(:last-child) {
+           margin-bottom: 16px;
+        }   
+    }
+    
+    @media screen and (min-width: 768px) {
+        font-size: 12px;
+        line-height: 1.14;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+            justify-content: flex-start;
+        } 
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        &:not(:last-child) {
+            margin-right: 30px;
+            margin-bottom: 0;
+        } 
+    }
+
+    &:hover,
+    &:focus {
+        color: $accent-color;   
+    }
+}
+
+
+.contacts-link__icon {
+    vertical-align:middle;
+    margin-right: 10px;
+    fill: $primary-text-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+        margin-right: 8px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 10px;
+    }
+
+    .contacts-link:hover > &,
+    .contacts-link:focus > & {
+        fill: $accent-color;
+    }
+}
+
+.envelope {
+    width: auto;
+    height: 11.2px;
+    @media screen and (min-width: 480px) {
+        width: 16px;
+        height: 11.2px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 14px;
+        height: 10px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 16px;
+        height: 12px;
+    }
+}
+
+.smatrphone {
+    width: auto;
+    height: 14.94px;
+
+    @media screen and (min-width: 480px) {
+        width: 10px;
+        height: 14.94px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 10px;
+        height: 14px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 10px;
+        height: 16px;
+    }
+}

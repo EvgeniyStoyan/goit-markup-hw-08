@@ -1,0 +1,27 @@
+.button {
+    width: auto;
+    height: 50px;
+    color: $primary-white-color;
+    background-color: $accent-color;
+    box-shadow: $button-box-shadow;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border-style: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: $bold;
+    font-size: $secondary-size;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: 30px;
+
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    
+    &:hover,
+    &:focus {
+        transform: scale(1.05);
+    }
+}

@@ -1,0 +1,35 @@
+@import "./utils/variables";
+@import "./base/normalise";
+@import "./base/fonts";
+@import "./base/common";
+
+// Header
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/site-nav";
+@import "./components/address";
+
+// Main
+@import "./components/hero";
+@import "./components/button";
+@import "./components/hero-overlay";
+@import "./components/advantages";
+@import "./components/type-services";
+@import "./components/team";
+@import "./components/social-icon";
+@import "./components/clients";
+
+// Footer
+@import "./components/footer";
+@import "./components/logo-footer";
+@import "./components/address-footer";
+@import "./components/footer-social-icon";
+@import "./components/form-footer";
+
+// Portfolio
+@import "./components/portfolio-buttons";
+@import "./components/portfolio-card";
+
+// Modal window
+@import "./components/modal";
+@import "./components/form-hero";
